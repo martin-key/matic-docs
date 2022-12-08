@@ -233,7 +233,7 @@ bor_rpc_url = "http://bor:8545"
 The default `init` command provides a `genesis.json` but that will not work with Polygon Mainnet or Mumbai. If you’re setting up a mainnet node, you can run this command to download the correct genesis file:
 
 ```bash
-sudo curl -o /mnt/data/heimdall/config/genesis.json https://raw.githubusercontent.com/maticnetwork/heimdall/develop/builder/files/genesis-mainnet-v1.json
+sudo curl -o /mnt/data/heimdall/config/genesis.json https://raw.githubusercontent.com/maticnetwork/heimdall/master/builder/files/genesis-mainnet-v1.json
 ```
 
 If you want to verify that you have the right file, you can check against this hash:
@@ -368,7 +368,7 @@ Bor will rely on this interface. So if you don’t see JSON output, there is som
 Now let’s download the `genesis` file for Bor specifically:
 
 ```bash
-sudo curl -o /mnt/data/bor/genesis.json 'https://raw.githubusercontent.com/maticnetwork/bor/develop/builder/files/genesis-mainnet-v1.json'
+sudo curl -o /mnt/data/bor/genesis.json 'https://raw.githubusercontent.com/maticnetwork/bor/master/builder/files/genesis-mainnet-v1.json'
 ```
 
 Let’s verify the `sha256 sum` again for this file:
