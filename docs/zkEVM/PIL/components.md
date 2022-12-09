@@ -48,7 +48,7 @@ A typical use of these polynomials is in the inclusion of selectors, latches and
 
 ### Committed Polynomials
 
-![A Constant in PIL](figures/fig16-pil-a-cnst.png)
+![A Constant in PIL](figures/fig16-pil-b-cmmt.png)
 
 Committed polynomials are _not_ known prior to the execution of the state machine. They are analogous to variables because their values change during execution, and are _only_ known to the prover $\mathcal{P}$. In order to create a committed polynomial, simply prefix the polynomial in question with the keyword $\texttt{committed}$ (in the same way a variable-type is declared in standard programming languages).
 
